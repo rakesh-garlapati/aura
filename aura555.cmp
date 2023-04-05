@@ -1,0 +1,4 @@
+<aura:component implements="force:hasRecordId,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,lightning:actionOverride,lightning:isUrlAddressable,force:lightningQuickAction" access="global" controller="TestClass3">
+    <aura:attribute name="recordId" type="String" />
+test component
+</aura:component>	
