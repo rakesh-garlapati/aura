@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Apex Imperative Method" icon-name="custom:custom25">
+        <lightning-button label="get the records" onclick={gettherecords}></lightning-button>
+        <template for:each={Contacts} for:item="a">
+            <li key={a.Id}>
+            {a.Id}|{a.Name}
+            </li>
+
+        </template>
+    </lightning-card>
+</template>

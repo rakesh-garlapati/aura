@@ -1,0 +1,9 @@
+.list-first{
+    border-top: 3px solid rgb(47, 154, 226);
+    border-left: 3px solid rgb(92, 176, 232);
+
+}
+.list-last{
+    border-bottom: 3px solid rgb(82, 193, 220);
+    
+}

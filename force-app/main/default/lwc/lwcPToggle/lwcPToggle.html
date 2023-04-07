@@ -1,0 +1,11 @@
+<template>
+    <lightning-card>
+        <lightning-input label="enter name" type="toggle" onchange={change} ></lightning-input>
+        <template if:true={val}>
+            this  is true.
+        </template>
+        <template if:false={val}>
+            this is false.
+        </template>
+    </lightning-card>
+</template>

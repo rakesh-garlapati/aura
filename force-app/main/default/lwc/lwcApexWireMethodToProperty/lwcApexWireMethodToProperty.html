@@ -1,0 +1,11 @@
+<template>
+    
+    <lightning-card title="class" icon-name="standard:client">
+        <template for:each={contact.data} for:item="a">
+            <li key={a.Id}>
+                {a.firstName}
+            </li>
+        </template>
+       
+    </lightning-card>  
+</template>

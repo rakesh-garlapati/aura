@@ -1,0 +1,11 @@
+<template>
+    
+    <lightning-card title="wire method to function" icon-name="standard:client">
+        <template for:each={contact} for:item="a">
+            <li key={a.Id}>
+                {a.firstName};
+            {a.lastName}
+            </li>
+        </template>
+    </lightning-card>    
+</template>

@@ -1,0 +1,11 @@
+<template>
+    
+    <lightning-card title="apex Imperative Method rama krishna" icon-name="standard:client">
+        <template for:each={contact} for:item="a">
+            <li key={a.Id}>
+                {a.firstName}
+            </li>
+        </template>
+        <lightning-button label="load contacts" onclick={handleLoad}></lightning-button>
+    </lightning-card>   
+</template>

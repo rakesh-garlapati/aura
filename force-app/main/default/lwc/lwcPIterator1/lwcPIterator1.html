@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Members" icon-name="standard:client">
+        <template  iterator:a={contact}>
+            <div if:true={a.first} key={a.value.id} class="list-first"></div>
+            <li key={a.id}>
+            {a.value.name},
+            {a.value.phone}
+            <div if:true={a.last} class="list-last"></div>
+            </li>
+        </template>
+    </lightning-card>  
+</template>

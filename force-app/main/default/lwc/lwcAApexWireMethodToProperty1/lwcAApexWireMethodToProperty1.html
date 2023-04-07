@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="LWC " icon-name="custom:custom25">
+        <template for:each={contacts.data} for:item="a">
+            <li key={a.Id}>
+               {a.Name},
+               {a.Id}
+            </li>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Accounts from Apex Class by using the property">
+        <template for:each={Accounts} for:item="a">
+            <li key={a.Id}>
+             {a.Id} | {a.Name}
+            </li>
+        </template>
+    </lightning-card>
+</template>

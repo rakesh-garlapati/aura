@@ -1,0 +1,44 @@
+<aura:component>
+
+<lightning:card iconName="standard:all">
+<aura:set attribute="title">
+<h1><b>Button</b></h1>
+</aura:set>
+<aura:set attribute="footer">
+<b>this for the button</b>
+<lightning:buttonIcon iconName="utility:activity" variant="brand"/>
+<lightning:buttonIcon iconName="utility:add" variant="bare"/>
+
+</aura:set>
+<aura:set attribute="actions">
+<lightning:buttonGroup>
+<lightning:button label="brand" variant="brand" title="this is brand"/>
+<lightning:button label="base" variant="base" title="this is brand"/>
+<lightning:button label="success" variant="success" title="this is brand"/>
+<lightning:button label="brand outline" variant="brand outline" title="this is brand"/>
+<lightning:button label="neutral" variant="neutral" title="this is brand"/>
+<lightning:button label="destructive" variant="destructive" title="this is brand"/>
+<lightning:buttonMenu alternativeText="Show menu">
+                <lightning:menuItem value="MenuItemOne" label="Menu Item One" />
+                <lightning:menuItem value="MenuItemTwo" label="Menu Item Two" />
+                <lightning:menuItem value="MenuItemThree" label="Menu Item Three" />
+                <lightning:menuItem value="MenuItemFour" label="Menu Item Four" />
+            </lightning:buttonMenu>
+</lightning:buttonGroup>
+</aura:set>
+<i>this is the first component after long time this is the first component after long time this is the first component after long time this is the first component after long time this is the first component after long time this is the first component after long timethis is the first component after long timethis is the first component after long time this is the first component after long time this is the first component after long time this is the first component after long time this is the first component after long timethis is the first component after long timevthis is the first component after long timethis is the first component after long time this is the first component after long time this is the first component after long time this is the first component after long time </i>
+
+<lightning:button label="bare" variant="neutral" title="this is brand"/>
+</lightning:card>
+<lightning:card>
+<lightning:buttonIconStateful iconName="utility:like"/>
+<lightning:buttonStateful
+        labelWhenOff="Follow"
+        labelWhenOn="Following"
+        labelWhenHover="Unfollow"
+        iconNameWhenOff="utility:add"
+        iconNameWhenOn="utility:check"
+        iconNameWhenHover="utility:close"
+    />
+</lightning:card>
+</aura:component>	
