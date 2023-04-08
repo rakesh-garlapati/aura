@@ -6,4 +6,15 @@
 <lightning:input label="Rating" value="{!v.acc.Rating}"/>
 <lightning:button label="save" onclick="{!c.clickme}"/>
 </lightning:card>
+<lightning:card>
+<lightning:buttonIconStateful iconName="utility:like"/>
+<lightning:buttonStateful
+        labelWhenOff="Follow"
+        labelWhenOn="Following"
+        labelWhenHover="Unfollow"
+        iconNameWhenOff="utility:add"
+        iconNameWhenOn="utility:check"
+        iconNameWhenHover="utility:close"
+    />
+</lightning:card>
 </aura:component>	

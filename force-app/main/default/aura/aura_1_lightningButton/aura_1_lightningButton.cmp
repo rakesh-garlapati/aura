@@ -30,15 +30,4 @@
 
 <lightning:button label="bare" variant="neutral" title="this is brand"/>
 </lightning:card>
-<lightning:card>
-<lightning:buttonIconStateful iconName="utility:like"/>
-<lightning:buttonStateful
-        labelWhenOff="Follow"
-        labelWhenOn="Following"
-        labelWhenHover="Unfollow"
-        iconNameWhenOff="utility:add"
-        iconNameWhenOn="utility:check"
-        iconNameWhenHover="utility:close"
-    />
-</lightning:card>
 </aura:component>	
