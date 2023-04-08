@@ -8,7 +8,7 @@
 if(intrest > 100){
     component.set("v.flag",true);
     }else{
-  component.set("v.flag",false);
+  component.set("v.flag",flase);
     }
     }
 })

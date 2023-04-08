@@ -3,22 +3,22 @@
 <aura:attribute name="rate" type="integer"/> 
 <aura:attribute name="year" type="integer"/> 
 <aura:attribute name="intrest" type="decimal"/> 
-<aura:attribute name="flag" type="boolean" default="false"/>
+<aura:attribute name="flag" type="boolean" default="true"/>
 
-<lightning:card>
-<lightning:input label="amount1" value="{!v.amount}"/>
-<lightning:input label="rate" value="{!v.rate}"/>
+<lightning:card class="first">
+<lightning:input label="amount1" value="{!v.amount}" class="example"/>
+<lightning:input label="rate" value="{!v.rate}" />
 <lightning:input label="year" value="{!v.year}"/>
 
 <aura:set attribute="footer">
-<lightning:button label="calculate" onclick="{!c.callme}"/>
+<lightning:button label="calculate" onclick="{!c.callme}" class="btn"/>
 </aura:set>
 
 </lightning:card>
 
 
 <aura:if isTrue="{!v.flag}">
-<div>
+<div class="box">
 <b>amount</b>:{!v.amount}<br/>
 <b>rate</b>:{!v.rate}<br/>
 <b>year</b>:{!v.year}<br/>
