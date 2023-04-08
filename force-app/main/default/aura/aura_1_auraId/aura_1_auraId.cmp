@@ -4,7 +4,9 @@
 <lightning:input label="bval" name="bvall" aura:id ="b"/>
 <lightning:input label="res" name="ress" aura:id ="res"/>
 <aura:set attribute="footer">
-<lightning:button label="display" variant="success" onclick="{!c.clickme}"/>
+<lightning:button label="addtion" variant="success" onclick="{!c.clickme}" aura:id="addition"/>
+<lightning:button label="subtration" variant="success" onclick="{!c.clickme}" aura:id="subtration"/>
+<lightning:button label="multiplication" variant="success" onclick="{!c.clickme}" aura:id="multiplication"/>
 </aura:set>
 </lightning:card>
 </aura:component>	
