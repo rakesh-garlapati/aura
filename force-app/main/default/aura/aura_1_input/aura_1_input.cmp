@@ -6,5 +6,7 @@
 <lightning:input label="state" type="text"/>
 <lightning:input label="country" type="text"/>
 <lightning:input label="dob" type="date"/>
+<lightning:input label="dob time" type="time"/>
+
 </lightning:card>
 </aura:component>	
