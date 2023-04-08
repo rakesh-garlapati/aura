@@ -1,0 +1,10 @@
+<aura:component>
+<lightning:card>
+<lightning:input label="aval" name="avall" aura:id ="a"/>
+<lightning:input label="bval" name="bvall" aura:id ="b"/>
+<lightning:input label="res" name="ress" aura:id ="res"/>
+<aura:set attribute="footer">
+<lightning:button label="display" variant="success" onclick="{!c.clickme}"/>
+</aura:set>
+</lightning:card>
+</aura:component>	

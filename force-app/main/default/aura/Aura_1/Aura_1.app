@@ -18,6 +18,9 @@
         <lightning:accordionSection name="C" label="Accordion Title C">
         <c:aura_1_calculator/>
         </lightning:accordionSection>
+        <lightning:accordionSection name="D" label="Accordion Title D">
+        <c:aura_1_auraId/>
+        </lightning:accordionSection>
 
 
 </lightning:accordion>
