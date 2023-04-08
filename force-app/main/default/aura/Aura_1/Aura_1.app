@@ -40,6 +40,18 @@
 <lightning:tab label="first one" id="one">
 <c:aura_1_sObject/>
 </lightning:tab>
+<lightning:tab label="second one" id="two">
+second tab
+</lightning:tab>
+<lightning:tab label="third one" id="third">
+third tab
+</lightning:tab>
+<lightning:tab label="fourth one" id="forth">
+fourth tab
+</lightning:tab>
+<lightning:tab label="fifth one" id="fifth">
+fifth tab
+</lightning:tab>
 </lightning:tabset>
 
 </lightning:layoutItem>
