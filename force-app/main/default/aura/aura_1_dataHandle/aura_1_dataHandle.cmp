@@ -1,0 +1,14 @@
+<aura:component>
+<aura:attribute name="empname" type="string"/>
+<aura:attribute name="empphone" type="string"/>
+<aura:attribute name="empsalary" type="string"/>
+<lightning:card title="employee info">
+<b>NAME</b>:{!v.empname}<br/>
+<b>PHONE</b>:{!v.empphone}<br/>
+<b>SALARY</b>:{!v.empsalary}<br/>
+<aura:set attribute="footer">
+<lightning:button label="save" variant="success" onclick="{!c.callme}"/>
+<lightning:button label="clear" variant="destructive" onclick="{!c.clearme}"/>
+</aura:set>
+</lightning:card>
+</aura:component>	

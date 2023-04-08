@@ -1,3 +1,4 @@
 <aura:application extends="force:slds">
 <c:aura_1_lightningButton/>
+<c:aura_1_dataHandle/>
 </aura:application>	
