@@ -1,6 +1,6 @@
 <aura:application extends="force:slds">
 <lightning:layout multipleRows="true">
-<lightning:layoutItem size="4">
+<lightning:layoutItem size="12">
 <c:aura_1_lightningButton/>
 </lightning:layoutItem>
 
