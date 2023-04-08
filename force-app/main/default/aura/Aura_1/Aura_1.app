@@ -1,7 +1,6 @@
 <aura:application extends="force:slds">
 <lightning:layout multipleRows="true">
 <lightning:layoutItem size="12">
-<c:aura_1_lightningButton/>
 </lightning:layoutItem>
 
 
@@ -44,7 +43,7 @@
 <c:aura_1_sObject1/>
 </lightning:tab>
 <lightning:tab label="third one" id="third">
-third tab
+<c:aura_1_lightningButton/>
 </lightning:tab>
 <lightning:tab label="fourth one" id="forth">
 fourth tab

@@ -1,5 +1,5 @@
 <aura:component>
-<aura:attribute name="acc" type="Account" default="sObjectType:'Account'"/>
+<aura:attribute name="acc" type="Account" default="{sObjectType:'Account'}"/>
 <lightning:card>
 <lightning:input label="name" value="{!v.acc.Name}"/>
 <lightning:input label="phone" value="{!v.acc.Phone}"/>
