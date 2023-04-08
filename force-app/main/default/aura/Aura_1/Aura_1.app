@@ -3,7 +3,7 @@
 <lightning:layoutItem size="12">
 <c:aura_1_lightningButton/>
 </lightning:layoutItem>
-</lightning:layout>
+
 
 <lightning:layoutItem size="6">
 <lightning:accordion activeSectionName="G">
@@ -34,5 +34,6 @@
 
 </lightning:accordion>
 </lightning:layoutItem>
+</lightning:layout>
 
 </aura:application>	
