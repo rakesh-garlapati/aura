@@ -1,0 +1,17 @@
+<aura:component>
+<aura:attribute name="aval" type="integer"/>
+<aura:attribute name="bval" type="integer"/>
+<aura:attribute name="result" type="integer"/>
+
+
+<lightning:card>
+<lightning:input label="aval" value="{!v.aval}"/>
+<lightning:input label="bval" value="{!v.bval}"/>
+<lightning:input label="result" value="{!v.result}"/>
+<aura:set attribute="footer">
+<lightning:button label="add" onclick="{!c.add}"/>
+<lightning:button label="sub" onclick="{!c.sub}"/>
+</aura:set>
+</lightning:card>
+
+</aura:component>	
