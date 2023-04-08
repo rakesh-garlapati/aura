@@ -1,5 +1,5 @@
 <aura:component>
-<aura:attribute name="val" default="false" type="boolean"/>
+<aura:attribute name="val" default="true" type="boolean"/>
 <lightning:card>
 <lightning:input label="amount" placeholder="amount" type="integer" aura:id="amt"/>
 <lightning:input label="rate" placeholder="rate of intrest" type="integer" aura:id="rate"/>

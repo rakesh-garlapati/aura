@@ -10,10 +10,11 @@
 
             var intrest = (parseInt(amount)*parseInt(rate)*parseInt(time))/100;
 
-            component.find("intrest").set("v.value");
+            component.find("intrest").set("v.value",intrest);
         }
 if(intrest > 100){
     component.set("v.val",true);
+    
 }
     }
 })
