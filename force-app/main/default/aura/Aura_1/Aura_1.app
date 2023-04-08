@@ -21,6 +21,9 @@
         <lightning:accordionSection name="D" label="Accordion Title D">
         <c:aura_1_auraId/>
         </lightning:accordionSection>
+        <lightning:accordionSection name="E" label="Accordion Title E">
+        <c:aura_1_auraif/>
+        </lightning:accordionSection>
 
 
 </lightning:accordion>

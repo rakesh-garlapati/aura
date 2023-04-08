@@ -1,0 +1,22 @@
+<aura:component>
+<aura:attribute name="val" default="false" type="boolean"/>
+<lightning:card>
+<lightning:input label="amount" placeholder="amount" type="integer" aura:id="amt"/>
+<lightning:input label="rate" placeholder="rate of intrest" type="integer" aura:id="rate"/>
+<lightning:input label="time" placeholder="time" type="integer" aura:id="time"/>
+
+<aura:set attribute="footer">
+<lightning:button label="si" variant="brand" onclick="{!c.clickme}" aura:id="si"/>
+<lightning:button label="ci" variant="brand" onclick="{!c.clickme}" aura:id="ci"/>
+</aura:set>
+</lightning:card>
+
+<aura:if isTrue="{!v.val}">
+
+<lightning:card>
+<lightning:input label="intrest" placeholder="intrest" type="integer" aura:id="intrest"/>
+</lightning:card>
+
+</aura:if>
+
+</aura:component>	
