@@ -5,10 +5,10 @@
 <lightning:input label="account Name" value="{!v.acc.Name}"/>
 <lightning:input label="account Phone" value="{!v.acc.Phone}"/>
 <lightning:input label="account rating" value="{!v.acc.Rating}"/>
-{!v.nam}
+<i>{!v.nam}</i>
 <aura:set attribute="footer">
 <lightning:button label="create" onclick="{!c.callme}"/>
 </aura:set>
 </lightning:card>
 </aura:component>
-	
+
