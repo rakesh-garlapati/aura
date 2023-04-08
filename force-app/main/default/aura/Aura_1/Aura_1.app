@@ -9,6 +9,10 @@
 </lightning:layoutItem>
 
 <lightning:layoutItem size="4">
+</lightning:layoutItem>
+
+
+<lightning:layoutItem size="4">
 <c:aura_1_input/>
 </lightning:layoutItem>
 
