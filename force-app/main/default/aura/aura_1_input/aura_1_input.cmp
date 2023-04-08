@@ -1,0 +1,10 @@
+<aura:component>
+<lightning:card>
+<lightning:input label="name" type="text"/>
+<lightning:input label="phone" type="phone"/>
+<lightning:input label="salary" type="text"/>
+<lightning:input label="state" type="text"/>
+<lightning:input label="country" type="text"/>
+<lightning:input label="dob" type="date"/>
+</lightning:card>
+</aura:component>	
