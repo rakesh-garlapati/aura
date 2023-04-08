@@ -34,6 +34,15 @@
 
 </lightning:accordion>
 </lightning:layoutItem>
+<lightning:layoutItem size="6">
+
+<lightning:tabset selectedTabId="one">
+<lightning:tab label="first one" id="one">
+<c:aura_1_sObject/>
+</lightning:tab>
+</lightning:tabset>
+
+</lightning:layoutItem>
 </lightning:layout>
 
 </aura:application>	
