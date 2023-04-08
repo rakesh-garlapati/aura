@@ -41,7 +41,7 @@
 <c:aura_1_sObject/>
 </lightning:tab>
 <lightning:tab label="second one" id="two">
-second tab
+<c:aura_1_sObject1/>
 </lightning:tab>
 <lightning:tab label="third one" id="third">
 third tab
