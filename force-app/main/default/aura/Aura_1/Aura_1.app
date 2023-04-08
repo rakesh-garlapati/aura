@@ -5,7 +5,7 @@
 </lightning:layoutItem>
 </lightning:layout>
 
-
+<lightning:layoutItem size="6">
 <lightning:accordion activeSectionName="B">
         <lightning:accordionSection name="A" label="Accordion Title A">
         <c:aura_1_dataHandle/>
@@ -21,5 +21,6 @@
 
 
 </lightning:accordion>
+</lightning:layoutItem>
 
 </aura:application>	
