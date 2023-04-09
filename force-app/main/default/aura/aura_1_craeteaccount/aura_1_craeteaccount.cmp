@@ -1,0 +1,24 @@
+<aura:component controller="createaccountandreturn">
+<aura:attribute name="name" type="string" />
+<aura:attribute name="phone" type="string" />
+<aura:attribute name="rating" type="string" />
+<aura:attribute name="returnacc" type="Account" />
+<lightning:layout multipleRows="true">
+<lightning:layoutItem size="6">
+<lightning:card>
+<lightning:input label="name" value="{!v.name}"/>
+<lightning:input label="Phone" value="{!v.phone}"/>
+<lightning:input label="Rating" value="{!v.rating}"/>
+<aura:set attribute="footer">
+<lightning:button label="create" onclick="{!c.callme}"/>
+</aura:set>
+</lightning:card>
+</lightning:layoutItem>
+
+<lightning:layoutItem size="6">
+{!v.returnacc.id}
+
+</lightning:layoutItem>
+</lightning:layout>
+
+</aura:component>	

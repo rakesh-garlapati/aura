@@ -75,7 +75,7 @@
 </lightning:tab>
 
 <lightning:tab label="ten one" id="ten">
-<c:aura_1_iteration/>
+<c:aura_1_craeteaccount/>
 </lightning:tab>
 
 <lightning:tab label="eleven one" id="eleven">
