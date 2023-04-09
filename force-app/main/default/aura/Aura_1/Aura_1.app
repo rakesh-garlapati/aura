@@ -55,7 +55,7 @@
 </lightning:tab>
 
 <lightning:tab label="fifth one" id="fifth">
-fifth tab
+<c:aura_1_account/>
 </lightning:tab>
 
 <lightning:tab label="six one" id="six">

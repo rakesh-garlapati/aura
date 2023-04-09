@@ -1,0 +1,10 @@
+<aura:component controller="aura_1_accountClass">
+<aura:attribute name="acc" type="Account"/>
+<aura:handler name="init" value="{!this}" action="{!c.showme}"/>
+<lightning:card title="account">
+<aura:set attribute="actions">
+<lightning:button label="account"/>
+</aura:set>
+<b>{!v.acc.Name}</b>
+</lightning:card>
+</aura:component>	
