@@ -1,0 +1,11 @@
+<aura:component>
+<aura:attribute name="ages" type="integer[]" default="[12,23,34,35,56,56,58,55,55]"/>
+<lightning:layout multipleRows="true">
+<aura:iteration items="{!v.ages}" var="a">
+<lightning:layoutItem size="2">
+<b>{!a}</b>
+</lightning:layoutItem>
+</aura:iteration>
+</lightning:layout>
+
+</aura:component>	

@@ -37,23 +37,51 @@
 <lightning:layoutItem size="6">
 
 <lightning:tabset selectedTabId="one">
+
 <lightning:tab label="first one" id="one">
 <c:aura_1_sObject/>
 </lightning:tab>
+
 <lightning:tab label="second one" id="two">
 <c:aura_1_sObject1/>
 </lightning:tab>
+
 <lightning:tab label="third one" id="third">
 <c:aura_1_lightningButton/>
 </lightning:tab>
+
 <lightning:tab label="fourth one" id="forth">
-fourth tab
+<c:aura_1_iteration/>
 </lightning:tab>
+
 <lightning:tab label="fifth one" id="fifth">
 fifth tab
 </lightning:tab>
-</lightning:tabset>
 
+<lightning:tab label="six one" id="six">
+<c:aura_1_iteration/>
+</lightning:tab>
+
+<lightning:tab label="seven one" id="seven">
+<c:aura_1_iteration/>
+</lightning:tab>
+
+<lightning:tab label="eight one" id="eight">
+<c:aura_1_iteration/>
+</lightning:tab>
+
+<lightning:tab label="nine one" id="nine">
+<c:aura_1_iteration/>
+</lightning:tab>
+
+<lightning:tab label="ten one" id="ten">
+<c:aura_1_iteration/>
+</lightning:tab>
+
+<lightning:tab label="eleven one" id="eleven">
+<c:aura_1_iteration/>
+</lightning:tab>
+</lightning:tabset>
 </lightning:layoutItem>
 </lightning:layout>
 
