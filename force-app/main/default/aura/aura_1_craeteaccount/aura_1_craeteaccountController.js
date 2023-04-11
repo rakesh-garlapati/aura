@@ -3,8 +3,8 @@
         var name  = component.get("v.name");
         var phone  = component.get("v.phone");
         var rating  = component.get("v.rating");
-      var action = component.get("v.createaccount");
-      action.setParams({"name":name , "phone":phone , "rating":rating});
+      var action = component.get("c.createaccount");
+      action.setParams({"name":name , "rating":rating});
       action.setCallback(this,function(response){
         var state = response.getState();
         if(state  == 'SUCCESS'){
